@@ -1,6 +1,8 @@
 extends layout
 
 block content
+	audio(loop autoplay)
+		source(src='music/retrowave.mp3', type='audio/mpeg')
 	h1 Oispa makkaraa
 	div(ng-app='oispaApp')
 		div(ng-controller='oispaController')

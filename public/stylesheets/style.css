@@ -1,31 +1,33 @@
 body {
-  padding: 0px;
-  margin: 0px;
-  font: 2em "Arial Bold Italic";
-  text-align: center;
-  background-color: black;
-  background-image: url('/images/makkara.png');
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: 100%;
+	padding: 0px;
+	margin: 0px;
+	font: 2em "Arial Bold Italic";
+	text-align: center;
+	background-color: black;
+	background-image: url('/images/makkara.png');
+	background-repeat: no-repeat;
+	background-size: auto, 100%;
+	background-position: center top;
 }
 
 a {
-  color: #00B7FF;
+	color: #00B7FF;
 }
- h1{
- 	color: #f765B8;
- }
- p{
- 	color: #27fdf5;
- }
- #footer{
- 	position: fixed;
- 	font-size: 20px;
- 	width: 100%;
- 	height: 30px;
- 	bottom: 0px;
- 	padding: 5px;
- 	margin: 0px;
- 	color: #f765B8;
- }
+h1{
+	color: #f765B8;
+}
+p{
+	color: #27fdf5;
+}
+#footer{
+	position: fixed;
+	font-size: 20px;
+	width: 100%;
+	height: 30px;
+	bottom: 0px;
+	padding: 5px;
+	margin: 0px;
+	color: #f765B8;
+	background-color: black;
+}
+

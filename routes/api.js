@@ -27,7 +27,7 @@ var request = http.request(options, (res) => {
 	res.on('end', () => {
 		console.log('No more data in response.');
 		// Get info from data
-		var regex = /makkaramix/gi;
+		var regex = /makkara/gi;
 		var matches = unica.match(regex);
 		if(matches != null) {
 			var ravintolat = unica.match(/<h2>(.*)<\/h2>/g);

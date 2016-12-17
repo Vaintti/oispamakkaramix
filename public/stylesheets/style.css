@@ -1,8 +1,12 @@
 body {
   padding: 50px;
-  font: 2em "Comic Sans MS";
+  font: 2em "Arial Bold Italic";
   text-align: center;
-  background-color: #6b1435;
+  background-color: black;
+  background-image: url('/images/makkara.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 a {

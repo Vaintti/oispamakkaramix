@@ -4,7 +4,7 @@ var http = require('http');
 var router = express.Router();
 
 var unica = '';
-var paikat = 'Missään ei ole makkaraa. :(';
+var paikat = 'Missään Unican ravintolassa ei ole tänään makkaraa. :(';
 var postData = querystring.stringify({
 	'msg': 'Hello World!'
 });

@@ -1,8 +1,16 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 2em "Comic Sans MS";
+  text-align: center;
+  background-color: #6b1435;
 }
 
 a {
   color: #00B7FF;
 }
+ h1{
+ 	color: #f765B8;
+ }
+ p{
+ 	color: #27fdf5;
+ }

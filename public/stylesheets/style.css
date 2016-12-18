@@ -1,3 +1,8 @@
+@keyframes example {
+	0% {background-size: 110%;}
+	100% {background-size: 100%;}
+}
+
 body {
 	padding: 0px;
 	margin: 0px;
@@ -6,8 +11,13 @@ body {
 	background-color: black;
 	background-image: url('/images/makkara.png');
 	background-repeat: no-repeat;
-	background-size: auto, 100%;
 	background-position: center top;
+	background-size: 100%;
+	animation: example;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
 }
 
 a {

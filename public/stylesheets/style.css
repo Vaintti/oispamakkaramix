@@ -4,25 +4,18 @@
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	align-content: stretch;
 	padding: 0px;
 	margin: 0px;
 	font: 2em "Arial Bold Italic";
 	text-align: center;
 	background-color: black;
-	background-image: url('/images/makkara.png');
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: 100%;
-	animation: example;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-direction: alternate;
+	height: 100vh;
 }
 
-a {
-	color: #00B7FF;
-}
 h1{
 	color: #f765B8;
 }
@@ -41,3 +34,24 @@ p{
 	background-color: black;
 }
 
+#wallpaper{
+	background-image: url('/images/makkara.png');
+	background-repeat: no-repeat;
+	height: 100%;
+	animation: example;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	background-position: top;
+	padding: 0px;
+	margin: 0px;
+}
+
+#app {
+	height: 100%;
+}
+
+#controller {
+	height: 100%;
+}
